@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+}
+
+.addUserBtn {
+    cursor: pointer;
+    padding: 4px 12px;
+    margin-top:20px;
+}
+.inputStyle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row {
+    display: table-row;
+}
+
+.header-row {
+    display: table-row;
+    font-weight: bold;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border:1px solid black;
+}
+
+.title1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#modalWindow {
+    width:300px;
+    height: 200px;
+    display: none;
+    margin-top:50px;
+    margin-left: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
